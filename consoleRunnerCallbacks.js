@@ -10,7 +10,7 @@ const readline = createInterface({
 const POSTCODES_BASE_URL = 'https://api.postcodes.io';
 const TFL_BASE_URL = 'https://api.tfl.gov.uk';
 
-export default class ConsoleRunner {
+export default class ConsoleRunnerCallbacks {
 
     promptForPostcode(callback) {
         readline.question('\nEnter your postcode: ', function(postcode) {

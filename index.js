@@ -1,7 +1,6 @@
 import path from 'path';
+import ConsoleRunnerAsyncAwait from './consoleRunnerAsyncAwait';
 
-import ConsoleRunner from './consoleRunner';
-
-const consoleRunner = new ConsoleRunner();
+const consoleRunner = new ConsoleRunnerAsyncAwait();
 
 consoleRunner.run();
